@@ -75,7 +75,6 @@ This class is a brutal staff load.  140E last quarter:
  - Almost 2,000 checkoffs; 
  - Many (unpaid!) staff staying at lab from 530-midnight;
  - Everyone still has PTSD.
-
 240lx has conceptually harder labs than 140e, much smaller staff, and
 almost 2x last years enrollment.
 
@@ -95,16 +94,14 @@ So unfortunately we do have two draconian rules for survival.
   - After the past year's experience, we've been forced into fascism.
   - The alternative is in-class blue book exams.  No one wants that.
   - If you want to use robots, *please* take the many other classes that
-    are ok with it.  In some sense this class is more about learning how
-    to move at a low level than it is about the specific facts.  Those
-    that don't figure this out how to do so on their own (tautologically)
-    won't konw how to do it and won't be interesting to talk to.
-  - The class is too expensive and too much work for it to devolve
-    into talking to low-fidelity llm output generators.
+    are ok with it.  
+  - There are much higher fidelity and much easier ways for us to see LLM
+    output.
   - WTS: we are developing LLM for low-level hardware classes.  But
-    they are intended for those that understand the hardware.
+    they are intended as follow-on for those that understand the hardware.
 
-Sorry for the negative message. We live in interesting times.
+Sorry for the negative message. We live in interesting times. The path
+ahead is unclear other than the neon glare of what doesn't work well.
 
 -----------------------------------------------------------------
 
