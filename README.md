@@ -75,6 +75,7 @@ This class is a brutal staff load.  140E last quarter:
  - Almost 2,000 checkoffs; 
  - Many (unpaid!) staff staying at lab from 530-midnight;
  - Everyone still has PTSD.
+
 240lx has conceptually harder labs than 140e, much smaller staff, and
 almost 2x last years enrollment.
 
@@ -96,12 +97,13 @@ So unfortunately we do have two draconian rules for survival.
   - If you want to use robots, *please* take the many other classes that
     are ok with it.  
   - There are much higher fidelity and much easier ways for us to see LLM
-    output.
-  - WTS: we are developing LLM for low-level hardware classes.  But
-    they are intended as follow-on for those that understand the hardware.
+    output compared to the work and expense of this class.
+  - WTS: we are developing "LLMs for low-level hardware" lab classes.  But
+    they are intended as follow-on for those that understand how things
+    work.
 
 Sorry for the negative message. We live in interesting times. The path
-ahead is unclear other than the neon glare of what doesn't work well.
+ahead is unclear other than the neon glare of what has not worked well.
 
 -----------------------------------------------------------------
 
