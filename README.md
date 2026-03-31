@@ -79,8 +79,8 @@ So unfortunately we do have two draconian rules for survival.
   - The alternative is in-class blue book exams.  No one wants that.
   - If you want to use robots, *please* take the many other classes that
     are ok with it.  
-  - There are much higher fidelity and much easier ways for us to see LLM
-    output compared to the work and expense of this class.
+  - If we want to see low-fidelity LLM outputs there are much easier
+    and cheaper ways than teaching this class.
   - WTS: we are developing "LLMs for low-level hardware" lab classes.  But
     they are intended as follow-on for those that understand how things
     work.
