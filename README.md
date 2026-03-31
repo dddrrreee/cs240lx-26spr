@@ -89,17 +89,14 @@ Sorry for the negative message. We live in interesting times. The path
 ahead is unclear other than the neon glare of what has not worked well.
 
 -----------------------------------------------------------------
-
 ### Possible labs
 
-Always do: Generate executable code at runtime
+We have 50+ possible labs, so actual contents vary depending on
+interest.
+
+Always do: Generate executable code at runtime (today)
   - even more low level than inline assembly.
   - self-modifying code is the ultimate sleazy hack.
-  - used to make fast(er) interpreted languages (JIT for
-    javascript, etc), fast dynamic intstrumentation (valgrind),
-    and old school virtual machines (vmware).
-  - can do all sorts of speed hacks by specializing using runtime
-    information.  compiling data structures to code.  etc.
 
 Always do: Custom pcb:
   - parthiv historically comes in to do a week of custom pcb labs so
