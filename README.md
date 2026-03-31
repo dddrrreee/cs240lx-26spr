@@ -1,7 +1,7 @@
 ## CS240lx, Spr 2026 (rm: Y2E2-111 6pm)
 
 -----------------------------------------------------------------
-### tl;dr:  class setup
+### tl;dr:  getting setup.
 
   - get the class repo:
 
@@ -30,6 +30,7 @@
         
         Saw done
 
+  - [look at the labs](./labs/README.md)
   - write code!
 
 -----------------------------------------------------------------
@@ -39,7 +40,6 @@
   - It's fun.
   - we have record enrollment so by the birthday paradox 
     / pigeon hole principle, your fav people will be there.
-
 
 Same rough format: 
   - still 2 days a week.
@@ -68,7 +68,77 @@ Several old, partially overlapping offerings:
   - [cs240lx-23](https://github.com/dddrrreee/cs240lx-23spr/tree/main/labs)
   - [cs240lx-25](https://github.com/dddrrreee/cs240lx-25spr/tree/main/labs)
 
+---------------------------------------------------------------
+### Class rules: no llm usage, no late labs.
+
+This class is a brutal staff load.  140E last quarter:
+ - Almost 2,000 checkoffs; 
+ - Many (unpaid!) staff staying at lab from 530-midnight;
+ - Everyone still has PTSD.
+
+240lx has conceptually harder labs than 140e, much smaller staff, and
+almost 2x last years enrollment.
+
+So unfortunately we do have two draconian rules for survival.
+
+*Rule 1: absolutely no labs accepted*:
+  - You have 1 week to turn in each lab (earlier is better!).
+  - We will not accept them after this.  
+  - TAs can't deal with the load of late turn-ins.
+  - Possible exceptions: you are presenting at a conference, 
+    competing at a national championship, or doing a huge
+    interesting extension.
+
+*Rule 2: Absolutely no LLM usage for labs or extensions*:
+  - You might not get caught, but if you do so we'll try to get you
+    kicked out if you don't drop the class.
+  - After the past year's experience, we've been forced into fascism.
+  - The alternative is in-class blue book exams.  No one wants that.
+  - If you want to use robots, *please* take the many other classes that
+    are ok with it.  In some sense this class is more about learning how
+    to move at a low level than it is about the specific facts.  Those
+    that don't figure this out how to do so on their own (tautologically)
+    won't konw how to do it and won't be interesting to talk to.
+  - The class is too expensive and too much work for it to devolve
+    into talking to low-fidelity llm output generators.
+  - WTS: we are developing LLM for low-level hardware classes.  But
+    they are intended for those that understand the hardware.
+
+Sorry for the negative message. We live in interesting times.
+
 -----------------------------------------------------------------
+
+This is a implementation-heavy, lab-based class that will cover similar
+topics as CS240 --- threads, virtual memory, file systems and distributed
+systems --- but by writing code versus discussing papers. After taking an
+initial operating systems course you are often left in the odd situation
+of having spent significant time getting the background knowledge needed
+to do interesting actions, but not being left with enough time to actually
+do them. This course attacks this problem by assuming basic knowledge and
+using it as a springboard to advance quickly through a set of powerful,
+useful techniques that even advanced practioners can be ignorant of.
+
+We will write custom code from scratch for the widely-used, ARM-based
+raspberry pi; our code will run "bare-metal" without an operating system,
+which means we can do interesting things without constantly fighting
+with a lumbering OS that cannot get out of its own way.
+
+By combining research insights (many unpublished) and our our lightweight
+bare-metal code we will be in the unusual position of having foundational
+abilities that most people have assumed are in-practice impossible. As
+one example, we will implement fast, flexible exception handling and then
+use this ability to build a variety of tools that find race conditions,
+check code correctness, and memory corruption. By using exceptions rather
+than binary rewriting we can build tools that find similar errors as
+Purify / Valgrind, but can be implemented in merely hundreds rather than
+hundreds of thousands of lines of code; our tools will also be faster
+and more extensible.
+
+The course workload is significant, but we aim to not waste your
+time. CS140E is strongly encouraged as a prerequisite, but a sufficiently
+talented and motivated implementor can make up for its lack (as calibration
+we usually have two or three people per year do this route).
+
 ### Possible labs
 
 Inspired by 140e final projects:
