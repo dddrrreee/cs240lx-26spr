@@ -75,7 +75,8 @@ So unfortunately we do have two draconian rules for survival.
 *Rule 2: Absolutely no LLM usage for labs or extensions*:
   - You might not get caught, but if you do so we'll try to get you
     kicked out if you don't drop the class.
-  - After the past year's experience, we've been forced into fascism.
+  - After the past year's experience, we've been forced into being luddites,
+    at least for TTh evenings.
   - The alternative is in-class blue book exams.  No one wants that.
   - If you want to use robots, *please* take the many other classes that
     are ok with it.  
