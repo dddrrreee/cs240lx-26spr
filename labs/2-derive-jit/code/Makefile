@@ -1,9 +1,13 @@
+# SUPPORT_OBJS := 
+PROGS := c-for-asm.c
 
-PROGS := 2-bug-self-modify.c
-PROGS += 1-self-modifying.c
-PROGS += 4-derive-pc-reg.c
-PROGS += 5-derive-add.c
-PROGS := 0-ident-dcg.c
+# bit more fancy
+PROGS := 1-simple-derive.c
+
+# simplest example.
+PROGS := 0-simple-derive.c
+
+
 
 # define this if you need to give the device for your pi
 TTYUSB = 
@@ -13,3 +17,4 @@ BOOTLOADER = my-install
 RUN=1
 
 include $(CS240LX_2026_PATH)/libpi/mk/Makefile.robust-v3
+
