@@ -71,8 +71,9 @@ void notmain() {
     if (!dma_wait(dma, TIMEOUT))
       panic("dma timed out\n");
 
-    if (out != ((uint8_t)in + 1) || in != i)
-      panic("didn't increment: out=%x, in=%x expected=%x\n", out, in, in + 1);
+    uint8_t expected = in + 1;
+    if (out != expected || in != i)
+      panic("didn't increment: out=%x, in=%x expected=%x\n", out, in, expected);
   }
 
   output("SUCCESS!  8-bit increment works on all inputs!\n");
