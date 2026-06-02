@@ -4,7 +4,7 @@
 # ah: for test, doesn't work for us b/c we don't have the code...
 #
 # also it is tricky if they swap with our code and their code.
-SUBDIRS=  code code-parthiv
+SUBDIRS=  code code-parthiv 11-i2s.parthiv
 
 .PHONY: all check clean
 all check clean: $(SUBDIRS)

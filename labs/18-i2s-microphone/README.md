@@ -1,9 +1,16 @@
 ## Using an I2S to make an acoustically reactive display.
 
+Note: 
+  - This is based on [Parthiv Krishna's lab in ./11-i2s.parthiv](11-i2s.parthiv).
+  - I wrote it to understand the hardware better, but his lab is probably
+    better to read overall -- the one thing this README covers he skimmed
+    are some of the subtle points about the clocks.
+
+
 PRELAB: these are crucial, make sure you read several times:
-  - [INMP441 microphone](./docs/inmp441-datasheet.pdf).  NOTE: the 
-    original lab was for a different mic, so hopefully things have
-    been updated.
+  - We use [adafruit breakout](https://www.adafruit.com/product/3421) for
+    the SPH0645LM4H-B I2S MEMS microphone. Datasheet:
+    [./docs/SPH0645LM4H-datasheet.pdf ](./docs/SPH0645LM4H-datasheet.pdf).
   - BCM2835 I2S hardware: [BCM2835-i2s.annot.pdf](./docs/BCM2835-i2s.annot.pdf).
   - BCM2835 Clock hardware: [BCM2835-audio-clocks.pdf](./docs/BCM2835-Audio-clocks.pdf).
   - [I2S clock errata](https://www.elinux.org/BCM2835_datasheet_errata#p119_I2S_clock)
@@ -12,7 +19,6 @@ PRELAB: these are crucial, make sure you read several times:
 If you want additoinal insight, the `./docs` directory also has:
   - [The original (short!) Philips specification](./docs/i2s-specification.pdf).
   - [A decent TI application note](./docs/slaa449a.pdf)
-
 
 Today we mostly get an I2S microphone working and then hopefully you 
 can run the output through an FFT and display on your light strip.
