@@ -1,3 +1,9 @@
+## Preface for the crazy ones
+
+DMA is Turing complete. If you want to just completely daniel mode this and figure everything out
+on your own, just ignore this README and do your own thing, since it's a really fun
+trick and this README kinda spoils the surprise ;)
+
 ## DMA (by Max Cura)
 
 Today we're going to talk about DMA is, and what you can do with it.
